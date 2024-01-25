@@ -9,7 +9,7 @@ else:
         print("I am sorry, but your age cannot be negative, or greater than 130")
     elif age < 18:
         print(" I am sorry, too young to play this drinking game everywhere in the world")
-    elif age < 21 and country =="US":
+    elif age < 21 and country == "US":
         print("I am sorry, too young to play this drinking game in the US")
     else:
         drink = random.choice(drinks)
