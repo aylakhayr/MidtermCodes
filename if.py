@@ -4,7 +4,7 @@ try:
 except ValueError:
     print("I am sorry, but that is not a valid number")
 else:
-    # Do some sanity checks on age
+    # Do some sanity checks on age19
     if age < 0 or age > 130:
         print("I am sorry, but your age cannot be negative, or greater than 130")
     elif age < 18:
